@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<HTML>
+	<HEAD>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../style.css" />
+		<TITLE>BB Free</TITLE>
+	</HEAD>
+
+	<BODY>
+		<div id="bloc_page">
+			<header>
+				<div id="titre_principal">
+					<div id="logo">
+						<img src="/images/img_20170827_103546_005.jpg"><h1> Bienvenue</h1>
+					</div>
+<!--					<h2>Modeste</h2>-->
+				</div>
+				<nav>
+					<ul>
+						<li><a href="/index.html">Accueil</a></li>
+						<li><a href="/autre/index.html">ailleurs</a></li>
+						<li><a href="/consommation/index.html">consommation</a></li>
+					</ul>
+				</nav>
+			</header>
+
+			<section>
+				<p>
+					Aller directement :<br />
+					<a href="#debut">au début</a><br />
+					<a href="#liens_html">aux liens des sites d'apprentissage du HTML</a><br />
+				</p>
+			</section>
+
+			<hr> <!-- ligne de séparation -->
+
+			<section>
+				<article>
+					<h1>Sète, le 8/04/2017</h1>
+					<p><a href="/images/IMG_20170408_195539.jpg"><img src="/images/img_20170408_195539_p.jpg" class="imageflottante" alt="une bande de potes" title="Clique pour agrandir" /></a></p>
+					<p><br />Ce texte est écrit à côté de l'image flottante.</p>
+					<p class="dessous"><br />il faisait beau...</p>
+				</article>
+
+				<aside>
+					<form method="post" action="traitement.php">
+						<p>
+							<fieldset>
+								<legend>Infos de connexion</legend> <!-- Titre du fieldset --> 
+								<label for="pseudo">Votre pseudo :</label>
+								<input type="text" name="pseudo" id="pseudo" />
+								<br />
+								<label for="pass">Votre mot de passe :</label>
+								<input type="password" name="pass" id="pass" />
+								<input type="submit" value="Envoyer" />
+							</fieldset>
+							<br />
+							<fieldset>
+								<legend>Infos de chapeau</legend> <!-- Titre du fieldset --> 
+								<input type="checkbox" name="avec_moyenne" id="avec_moyenne" /> <label for="avec_moyenne">affichage de la moyenne</label><br />
+								<label for="chapeaute">Qui est le plus chapeauté ?</label><br />
+								<select name="chapeaute" id="chapeaute">
+									<option value="Arno">Arno</option>
+									<option value="Ber">Ber</option>
+									<option value="Chri">Chri</option>
+									<option value="Yo">Yo</option>
+								</select>
+							</fieldset>
+						</p>
+					</form>
+				</aside>
+			</section>
+
+			<section>
+				<article>
+					<h2 id="debut">Le début</h2>
+					<p>
+						Je renvoie vers le fichier <a href="test.html" title="vas-y, clique...">test.html</a> pour ne pas modifier tout le temps le fichier d'index,
+						<br />
+						et vers le fichier <a href="test2.html" title="vas-y, cliquette...">test2.html</a>.
+					</p>
+					<p class="retour_top"><a href="#top">retour en haut de la page</a></p>
+
+					<h2 id="liens_html">Sites sur le HTML</h2>
+					<p>
+						Site du W3C "Module CSS3 : Sélecteurs W3C" <a href="https://www.w3.org/Style/css3-selectors-updates/WD-css3-selectors-20010126.fr.html#selectors">https://www.w3.org/Style/css3-selectors-updates/WD-css3-selectors-20010126.fr.html#selectors</a><br />
+						Site pour apprendre à faire des sites WEB <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens">https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens</a><br />
+						Site pour apprendre à faire des sites WEB, suite sur le CSS <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/mettre-en-place-le-css">https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/mettre-en-place-le-css</a><br />
+						<br />
+						Site pour apprendre à faire des sites WEB, là où j'en suis "CSS-Formatage du texte" <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/formatage-du-texte">https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/formatage-du-texte</a><br />
+						<br />
+						Site sur la compatibilité des fonctionnalités de HTML et CSS sur différents navigateurs (et sur leurs différentes versions) : <a href="https://www.caniuse.com/">www.caniuse.com</a><br />
+						<a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/memento-des-balises-html">Mémento des balises HTML</a> sur le même site que j'aime bien<br />
+						<a href="http://www.codeshttp.com/baliseh.htm">Liste complète des balises HTML avec description</a><br />
+						<br />
+						Site pour redimensionner les images : <a href=http://resizeimage.net/>http://resizeimage.net/</a>
+					</p>
+					<p class="retour_top"><a href="#top">retour en haut de la page</a></p>
+				</article>
+			</section>
+
+			<footer>
+				<h1>Merci de votre venue...</h1>
+			</footer>
+		</div>
+</BODY>
+
+</HTML>

@@ -1,0 +1,188 @@
+#bloc_page
+{
+    width: 1000px;
+    margin: auto;
+}
+#bloc_page_consommation
+{
+    width: 1310px;
+    margin: auto;
+}
+/********************************/
+/****     Entête de page     ****/
+/********************************/
+header h1, section h1, footer h1, nav a
+{
+    text-transform: uppercase;
+}
+
+header
+{
+    display: flex;
+    align-items: flex-end;
+    border-bottom: 2px solid #760001;
+}
+#entete
+{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+.photo_entete
+{
+	width: 180px;
+	height: 140px;
+}
+.element_entete
+{
+	flex: 1;
+}
+#titre_et_liens_entete
+{
+    display: flex;
+    flex-direction: column;
+}
+#titre_entete
+{
+    display: flex;
+    justify-content: center;
+}
+#liens_entete
+{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+}
+nav li
+{
+    margin-right: 15px;
+}
+/********************************/
+/*****     Pied de page     *****/
+/********************************/
+footer
+{
+    display: flex;
+    padding-top: 10px;
+    border-top: 1px solid #760001;
+}
+footer p, footer ul
+{
+    font-size: 0.7em;
+}
+footer h1
+{
+    font-size: 1em;
+}
+/********************************/
+/*****         Corps        *****/
+/********************************/
+section
+{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+article, aside
+{
+    text-align: justify;
+}
+
+article
+{
+    margin-right: 20px;
+    flex: 3;
+}
+
+article p
+{
+    font-size: 0.8em;
+}
+
+aside
+{
+    flex: 1.2;
+    position: relative;
+    background-color: #706b64;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 0.9em;
+}
+
+.electricite
+{
+    color: red;
+	background: #dbe0ef;
+	border-top: 2px solid #aeb8de;
+	border-bottom: 2px solid #aeb8de;
+	padding: 1em; /* marge intérieure */
+}
+.eau
+{
+    color: blue;
+	background: #dbe0ef;
+	border-top: 2px solid #aeb8de;
+	border-bottom: 2px solid #aeb8de;
+	padding: 1em; /* marge intérieure */
+}
+
+a[href="#top"]
+{
+	color: green;
+	font-size: 0.8em;
+    text-align: right;
+}
+.retour_top
+{
+	color: green;
+	font-size: 1em;
+    text-align: right;
+	padding-right: 150px; /* marge intérieure */
+}
+
+h3
+{
+    text-decoration: underline;
+}
+
+ul.cadre
+{
+	border: 2px solid #aeb8de;
+	padding: 10px 10px 10px 70px; /* marge intérieure */
+/*	-moz-border-radius: 5em;*/
+/*	-khtml-border-radius:9px;*/
+	-webkit-border-radius:9px;
+/*	border-radius:9px;*/
+	overflow: auto;
+	word-wrap;
+}
+ul.facture
+{
+	width: 350px;
+	border: 2px solid #aeb8de;
+	padding: 10px 10px 10px 70px; /* marge intérieure */
+	-webkit-border-radius:9px;
+	overflow: auto;
+	word-wrap;
+}
+li
+{
+	margin-bottom: 5px; /* marge extérieure */
+}
+
+.imageflottante
+{
+    float: left;
+}
+
+.dessous
+{
+    clear: both;
+}
