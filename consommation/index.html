@@ -104,11 +104,21 @@
 						<br />
 						GitHub est un service en ligne qui permet d'héberger ses repositories de code: <a href="https://github.com/" targer="_blank">https://github.com/</a>
 						<br />
+						un bon site sur git : <a href="https://buzut.fr/git-en-2-2/" target="_blank">https://buzut.fr/git-en-2-2/</a>
+						<br />
 						 le lien a renseigner dans git : https://github.com/bbcheri/site_free.git =>
 						<br />
 						(git remote add origin https://github.com/bbcheri/site_free.git)
 						<br />
-						git push -u origin master
+						"git push -u origin master" peut engendrer l'erreur "error: failed to push some refs to 'https://github.com/bbcheri/site_free.git'
+						hint: Updates were rejected because the tip of your current branch is behind
+						<br />
+						=> "git push -f origin master"
+						<br />
+						"git filter-branch --tree-filter 'rm -f ./.htaccess' HEAD" peut engendrer l'erreur "Cannot create new backup. A previous backup already exists in refs/original/"
+						, il faudra forcer la commande avec l’option -f : git filter-branch -f […]
+						<br />
+						=> "git filter-branch -f --tree-filter 'rm -f ./.htaccess' HEAD"
 						<br />
 					</p>
 					<p>
