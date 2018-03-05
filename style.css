@@ -152,6 +152,15 @@ h3
     text-decoration: underline;
 }
 
+fieldset.facture
+{
+	width: 410px;
+	border: 2px solid #aeb8de;
+	-webkit-border-radius:9px;
+	overflow: auto;
+	word-wrap;
+}
+
 ul.cadre
 {
 	border: 2px solid #aeb8de;
