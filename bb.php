@@ -108,7 +108,7 @@ function get_ip() {
 function open_mysql_bb()
 {
 	// Connexion à MySQL
-	$mabase = mysql_connect("sql.free.fr", "bertrand.bernier", "qsdfg") or die("Impossible de se connecter : " . mysql_error());
+	$mabase = mysql_connect("sql.free.fr", "bernard.berenguier", "bboim35") or die("Impossible de se connecter : " . mysql_error());
 	mysql_select_db("bernard.berenguier");
 	return $mabase;
 }
