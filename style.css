@@ -116,21 +116,17 @@ aside
     font-size: 0.9em;
 }
 
-.electricite
-{
-    color: red;
-	background: #dbe0ef;
-	border-top: 2px solid #aeb8de;
-	border-bottom: 2px solid #aeb8de;
-	padding: 1em; /* marge intérieure */
-}
-.eau
-{
+.eau, .electricite, .eau_400, .electricite_400
+{	
     color: blue;
 	background: #dbe0ef;
 	border-top: 2px solid #aeb8de;
 	border-bottom: 2px solid #aeb8de;
 	padding: 1em; /* marge intérieure */
+}
+.eau_400, .electricite_400
+{	
+	width: 400px;
 }
 
 a[href="#top"]
@@ -152,7 +148,16 @@ h3
     text-decoration: underline;
 }
 
-fieldset.facture
+p.cadre_code /* paragraphes utilisés pour mettre en valeur des lignes de code */
+{
+	background: #e3e3e3;
+	border: 1px solid black;
+	padding: 10px 20px 10px 20px; /* marge intérieure */
+	overflow: auto;
+	word-wrap;
+}
+
+fieldset.facture /* regroupement de champs "Factures" */
 {
 	width: 410px;
 	border: 2px solid #aeb8de;
@@ -194,4 +199,19 @@ li
 .dessous
 {
     clear: both;
+}
+
+table
+{
+/*	margin: 0 auto;*/
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+}
+td, th /* Toutes les cellules des tableaux, notamment les entêtes... */
+{
+    border: 1px solid black; /* auront une bordure de 1px */
+	padding: 5px 20px 5px 20px;
+	text-align: center;
+}td /* Toutes les cellules des tableaux */
+{
+	text-align: right;
 }
